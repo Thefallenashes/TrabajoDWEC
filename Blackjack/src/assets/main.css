@@ -1,0 +1,24 @@
+@import './base.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: block;
+  background: #061e10;
+  color: #f0e6c8;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+}
